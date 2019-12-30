@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Projects\Work\Upwork\BitmapImageText\TextToBitmap" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TextToBitmap" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="TextToBitmap.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TextToBitmap.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\Nicholas\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Nicholas\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_TextToBitmap.750243083.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Nicholas\.Rider2019.1\system\rust_expanded_macros\sdjiBWAn\expansions" t="IncludeRecursive" />
+  </component>
+</project>

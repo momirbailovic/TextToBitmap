@@ -1,0 +1,13 @@
+C:\Projects\Work\Upwork\BitmapImageText\TextToBitmap\TextToBitmap\bin\Debug\TextToBitmap.exe
+C:\Projects\Work\Upwork\BitmapImageText\TextToBitmap\TextToBitmap\bin\Debug\TextToBitmap.pdb
+C:\Projects\Work\Upwork\BitmapImageText\TextToBitmap\TextToBitmap\obj\Debug\TextToBitmap.csprojResolveAssemblyReference.cache
+C:\Projects\Work\Upwork\BitmapImageText\TextToBitmap\TextToBitmap\obj\Debug\TextToBitmap.exe
+C:\Projects\Work\Upwork\BitmapImageText\TextToBitmap\TextToBitmap\obj\Debug\TextToBitmap.pdb
+D:\work\c#\tst\TextToBitmap\TextToBitmap\bin\Debug\TextToBitmap.exe
+D:\work\c#\tst\TextToBitmap\TextToBitmap\bin\Debug\TextToBitmap.pdb
+D:\work\c#\tst\TextToBitmap\TextToBitmap\obj\Debug\TextToBitmap.csproj.CoreCompileInputs.cache
+D:\work\c#\tst\TextToBitmap\TextToBitmap\obj\Debug\TextToBitmap.exe
+D:\work\c#\tst\TextToBitmap\TextToBitmap\obj\Debug\TextToBitmap.pdb
+D:\work\c#\tst\TextToBitmap\TextToBitmap\obj\Debug\TextToBitmap.Properties.Resources.resources
+D:\work\c#\tst\TextToBitmap\TextToBitmap\obj\Debug\TextToBitmap.csproj.GenerateResource.cache
+D:\work\c#\tst\TextToBitmap\TextToBitmap\obj\Debug\TextToBitmap.csprojAssemblyReference.cache

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{715591C2-3CEF-411A-982A-76B5A5F7667D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TextToBitmap</RootNamespace>
+    <AssemblyName>TextToBitmap</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMUDHAM.TTF" />
+    <None Include="Resources\Bamini_Plain.ttf" />
+    <None Include="Resources\barani.ttf" />
+    <None Include="Resources\kovai.ttf" />
+    <None Include="Resources\krtml120.TTF" />
+    <None Include="Resources\krtml130.TTF" />
+    <None Include="Resources\krtml140.TTF" />
+    <None Include="Resources\krtml150.TTF" />
+    <None Include="Resources\krtml160.TTF" />
+    <None Include="Resources\krtml170.TTF" />
+    <None Include="Resources\krtml180.TTF" />
+    <None Include="Resources\krtml190.TTF" />
+    <None Include="Resources\KUNDALAK.TTF" />
+    <None Include="Resources\KUNDAL_I.TTF" />
+    <None Include="Resources\KURANCHI.TTF" />
+    <None Include="Resources\KURINCHI.TTF" />
+    <None Include="Resources\KURINC_I.TTF" />
+    <None Include="Resources\KURINJI0.TTF" />
+    <None Include="Resources\LAKSHMI.TTF" />
+    <None Include="Resources\LAKSHM_I.TTF" />
+    <None Include="Resources\LAPC____.TTF" />
+    <None Include="Resources\latha.ttf" />
+    <None Include="Resources\MADAVI.TTF" />
+    <None Include="Resources\MADAVI_I.TTF" />
+    <None Include="Resources\MAHADEVI.TTF" />
+    <None Include="Resources\MAHADE_B.TTF" />
+    <None Include="Resources\MAHADE_I.TTF" />
+    <None Include="Resources\MAHAD_BI.TTF" />
+    <None Include="Resources\MAL.TTF" />
+    <None Include="Resources\MALARVIZ.TTF" />
+    <None Include="Resources\MALARV_I.TTF" />
+    <None Include="Resources\MALLIGAI.TTF" />
+    <None Include="Resources\MALLIKA.TTF" />
+    <None Include="Resources\MALLIK_I.TTF" />
+    <None Include="Resources\MANGAI.TTF" />
+    <None Include="Resources\MANIME_I.TTF" />
+    <None Include="Resources\MANI_0.TTF" />
+    <None Include="Resources\POORAM.TTF" />
+    <None Include="Resources\PRAVI_0.TTF" />
+    <None Include="Resources\RANJANI3.TTF" />
+    <None Include="Resources\RANJANI_1.TTF" />
+    <None Include="Resources\RASIG1_0.TTF" />
+    <None Include="Resources\RASIGAPR.TTF" />
+    <None Include="Resources\RASPC__.TTF" />
+    <None Include="Resources\RATHIN.TTF" />
+    <None Include="Resources\RATHNANG.TTF" />
+    <None Include="Resources\R_RAVI.TTF" />
+    <None Include="Resources\SAGARABA.TTF" />
+    <None Include="Resources\SAKUNT_B.TTF" />
+    <None Include="Resources\SAKUNT_I.TTF" />
+    <None Include="Resources\SAKUN_BI.TTF" />
+    <None Include="Resources\salem.ttf" />
+    <None Include="Resources\SAPC____.TTF" />
+    <None Include="Resources\st-003.TTF" />
+    <None Include="Resources\st-004.TTF" />
+    <None Include="Resources\st-005.TTF" />
+    <None Include="Resources\st-006.TTF" />
+    <None Include="Resources\st-007.TTF" />
+    <None Include="Resources\st-013.TTF" />
+    <None Include="Resources\st-014.TTF" />
+    <None Include="Resources\st-016.TTF" />
+    <None Include="Resources\st-017.TTF" />
+    <None Include="Resources\st-018.TTF" />
+    <None Include="Resources\st-019.TTF" />
+    <None Include="Resources\st-020 %281%29.TTF" />
+    <None Include="Resources\st-020.TTF" />
+    <None Include="Resources\st-021.TTF" />
+    <None Include="Resources\st-022.TTF" />
+    <None Include="Resources\st-028.TTF" />
+    <None Include="Resources\st-029.TTF" />
+    <None Include="Resources\st-030.TTF" />
+    <None Include="Resources\st-031.TTF" />
+    <None Include="Resources\st-032.TTF" />
+    <None Include="Resources\st-037.TTF" />
+    <None Include="Resources\st-038.TTF" />
+    <None Include="Resources\st-041.TTF" />
+    <None Include="Resources\st-042.TTF" />
+    <None Include="Resources\Tamil-Aiswarya-Normal.ttf" />
+    <None Include="Resources\tamil1.TTF" />
+    <None Include="Resources\tamil2.TTF" />
+    <None Include="Resources\tamilara.TTF" />
+    <None Include="Resources\tamila_b.TTF" />
+    <None Include="Resources\tamila_i.TTF" />
+    <None Include="Resources\TAMMADUR_0.TTF" />
+    <None Include="Resources\TBOOMIS.TTF" />
+    <None Include="Resources\tm-crys.TTF" />
+    <None Include="Resources\tm-dhan.TTF" />
+    <None Include="Resources\tm-rath.TTF" />
+    <None Include="Resources\tm-reva.TTF" />
+    <None Include="Resources\tm-roja.TTF" />
+    <None Include="Resources\UTHAYAM.TTF" />
+    <None Include="Resources\UTHAYANE.TTF" />
+    <None Include="Resources\VAIGAI.TTF" />
+    <None Include="Resources\VANAVIL-Avvaiyar.ttf" />
+    <None Include="Resources\VITHTHI.TTF" />
+    <None Include="Resources\YERU.TTF" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>
